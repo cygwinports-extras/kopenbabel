@@ -1,0 +1,13 @@
+inherit kde3
+
+DESCRIPTION="KDE OpenBabel frontend"
+HOMEPAGE="http://kopenbabel.sourceforge.net/"
+SRC_URI="mirror://sourceforge/kopenbabel/${PN}3-${PV}.tar.gz"
+SRC_DIR="${PN}3-${PV}"
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygcmake
+	cygmake -j1
+}
