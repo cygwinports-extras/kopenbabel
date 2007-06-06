@@ -1,0 +1,8 @@
+category: KDE Science
+requires: cygwin kdelibs4 libopenbabel2 qt3
+sdesc: "KDE frontend to Open Babel chemistry package"
+ldesc: "KOpenBabel is a graphical interface to Open Babel. KOpenBabel 
+can handle and convert over 70 chemical file formats. At this time, it 
+can convert files, guess input file type and convert a large number of 
+files with a single click. The user interface is available in different 
+languages (german, english and french)."

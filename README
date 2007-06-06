@@ -1,0 +1,70 @@
+kopenbabel
+------------------------------------------
+KOpenBabel is a graphical interface to Open Babel. KOpenBabel can handle 
+and convert over 70 chemical file formats. At this time, it can convert 
+files, guess input file type and convert a large number of files with a 
+single click. The user interface is available in different languages 
+(german, english and french).
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  kdelibs4-3.5.7-1
+  libopenbabel2-2.1.0-1
+  qt3-3.3.8-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.24-1
+  binutils-20060817-1
+  cmake-2.4.6-1
+  cygport-0.3.1-1
+  gcc-core-3.4.4-3
+  gcc-g++-3.4.4-3
+  make-3.81-1
+
+Canonical website:
+  http://kopenbabel.sourceforge.net/
+
+Canonical download:
+  http://downloads.sourceforge.net/kopenbabel
+
+-------------------------------------------
+
+Build instructions:
+  unpack kopenbabel-0.5-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./kopenbabel-0.5-X.cygport all
+
+This will create:
+  /usr/src/kopenbabel-0.5-X-src.tar.bz2
+  /usr/src/kopenbabel-0.5-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/kopenbabel.exe
+  /usr/share/doc/Cygwin/kopenbabel-0.5.README
+  /usr/share/doc/kopenbabel-0.5/
+  /usr/share/doc/kopenbabel-0.5/AUTHORS
+  /usr/share/doc/kopenbabel-0.5/ChangeLog
+  /usr/share/doc/kopenbabel-0.5/COPYING
+  /usr/share/doc/kopenbabel-0.5/INSTALL
+  /usr/share/doc/kopenbabel-0.5/NEWS
+  /usr/share/doc/kopenbabel-0.5/README
+  /usr/share/kopenbabel/kopenbabelui.rc
+  /usr/share/locale/de/LC_MESSAGES/kopenbabel.mo
+  /usr/share/locale/fr/LC_MESSAGES/kopenbabel.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
