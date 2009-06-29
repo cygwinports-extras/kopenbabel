@@ -1,5 +1,5 @@
 category: KDE Science
-requires: cygwin kdelibs4 libopenbabel2 qt3
+requires: kdelibs4 libopenbabel2 qt3
 sdesc: "KDE frontend to Open Babel chemistry package"
 ldesc: "KOpenBabel is a graphical interface to Open Babel. KOpenBabel 
 can handle and convert over 70 chemical file formats. At this time, it 
